@@ -1,0 +1,48 @@
+data = [
+            {
+                element: 'el5',
+                innerhtml: ' Tools',
+                tag: 'td',
+                intro: "Click <b>Tools</b>.",
+                step: 1,
+                position: 'right',
+                url: 'http://localhost/MDMCenter/Main/Entity/EntityExplorer.aspx',
+				nextButton: false
+            },
+            {
+                element: 'tr68',
+                innerhtml: ' System Administration',
+                tag: 'td',
+                intro: "Click <b>System Administration</b>.",
+                position: 'right',
+                step: 2,
+                url: 'http://localhost/MDMCenter/Main/Entity/EntityExplorer.aspx'
+            },
+            {
+                element: 'el58',
+                innerhtml: ' Maintain Users',
+                tag: 'td',
+                intro: "Click <b>Maintain Users</b>.",
+                position: 'right',
+                step: 3,
+                url: 'http://localhost/MDMCenter/Main/Entity/EntityExplorer.aspx'
+            },
+            {
+                element: 'BtnAddUser',
+                innerhtml: 'Add User',
+                tag: 'span',
+                intro: "Click <b>Add User</b>.",
+                position: 'right',
+                step: 4,
+                url: 'http://localhost/MDMCenter/Main/Views/View.aspx?view=Users'
+            },
+			{
+                element: 'btnOK',
+                //innerhtml: '',
+                tag: 'input',
+                intro: "Fill proper details then Click on <b>OK</b>.",
+                position: 'bottom',
+                step: 5,
+                url: 'http://localhost/MDMCenter/Main/Administration/EditUser.aspx?action=add'
+            }
+        ];
